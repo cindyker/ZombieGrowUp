@@ -1,5 +1,5 @@
 name: ZombieGrowUp
-version: 1.1
+version: ${project.version}
 main: com.minecats.cindyk.zombiegrowup.ZombieGrowUp
 author: cindy_k
 description: Makes baby zombies growup.
