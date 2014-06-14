@@ -23,7 +23,7 @@ public class ZombieGrowUp extends JavaPlugin implements Listener {
     }
 
     //when a creature spawns...
-    @EventHandler(priority = EventPriority.LOWEST)
+    @EventHandler(priority = EventPriority.HIGHEST)
     public void onEntitySpawn(CreatureSpawnEvent event)
     {
         if( event.getEntity().getType() == EntityType.ZOMBIE )
